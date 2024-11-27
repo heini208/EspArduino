@@ -1,0 +1,62 @@
+# Ignore build files
+/build/
+*.o
+*.d
+*.a
+*.elf
+*.bin
+*.map
+
+# Ignore CMake build system files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore Python virtual environment
+.python_env/
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore ESP-IDF-specific configuration and logs
+sdkconfig
+sdkconfig.old
+idf.py.build/
+*.log
+
+# Ignore flash images and partitions
+*.bin
+*.bin.sig
+*.hex
+*.uf2
+
+# Ignore tools generated files
+*.out
+*.bak
+
+# Ignore temporary files
+*.swp
+*.swo
+*~
+*.tmp
+
+# Ignore VS Code workspace settings
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/c_cpp_properties.json
+
+# Ignore CLion/JetBrains IDE files
+.idea/
+*.iml
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Linux temporary files
+*~
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
